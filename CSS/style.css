@@ -6,3 +6,59 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    margin: 1% 8%;
+}
+
+/* header */
+
+header{
+    height: 450px;
+}
+
+.header-top{
+    width: 100%;
+}
+
+.jumbotron{
+    width: 100%;
+}
+
+.margin-btm{
+    margin-bottom: 20px;
+}
+
+/* main */
+
+
+
+/* debug */
+
+.header-top .debug{
+    height: 100px;
+    background-color: violet;
+}
+
+.jumbotron .debug{
+    height: 330px;
+    background-color: gold;
+}
