@@ -70,6 +70,12 @@ main{
     padding: 0 2%;
 }
 
+/* footer */
+
+footer{
+    width: 100%;
+}
+
 /* debug */
 
 .header-top .debug{
@@ -87,12 +93,13 @@ main{
     background-color: lightskyblue;
 }
 
-.content .debug{
+.content .debug,
+.mid-content .debug{
     height:350px;
     background-color: lightskyblue;
 }
 
-.mid-content .debug{
-    height: 350px;
-    background-color: lightskyblue;
+footer .debug{
+    height: 50px;
+    background-color: purple;
 }
