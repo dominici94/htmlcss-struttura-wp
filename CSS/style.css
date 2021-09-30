@@ -47,9 +47,28 @@ header{
     margin-bottom: 20px;
 }
 
+.margin-top{
+    margin-top: 20px;
+}
+
+.pad-btm{
+    padding-bottom: 20px;
+}
+
 /* main */
 
+main{
+    background-color: blue;
+}
 
+.content{
+    width: 25%;
+}
+
+.mid-content{
+    width: 50%;
+    padding: 0 2%;
+}
 
 /* debug */
 
@@ -61,4 +80,19 @@ header{
 .jumbotron .debug{
     height: 330px;
     background-color: gold;
+}
+
+.top-content .debug{
+    height: 100px;
+    background-color: lightskyblue;
+}
+
+.content .debug{
+    height:350px;
+    background-color: lightskyblue;
+}
+
+.mid-content .debug{
+    height: 350px;
+    background-color: lightskyblue;
 }
